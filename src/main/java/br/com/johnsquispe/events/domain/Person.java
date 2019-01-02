@@ -3,7 +3,7 @@ package br.com.johnsquispe.events.domain;
 import javax.persistence.*;
 
 @MappedSuperclass
-public class Person {
+public class Person extends EntityDomain{
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
