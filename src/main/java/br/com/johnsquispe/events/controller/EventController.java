@@ -9,7 +9,7 @@ public class EventController {
     @GetMapping(value = "/cadastrar")
     public String cadastrar() {
 
-        return "cadastrar";
+        return "cadastro";
 
     }
 
